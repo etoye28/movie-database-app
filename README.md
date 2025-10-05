@@ -18,19 +18,20 @@ The React Compiler is not enabled on this template. To add it, see [this documen
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 -->
 
-# Movie Database App 🎬
+# Movie Database App
 
-A React + Tailwind app that lets users search movies, view details, and save favorites.  
-Built as part of ALX FE Capstone Project.
+React + Vite + Tailwind app using TMDB API. Features:
+- Search with suggestions
+- Movie details (plot, cast, trailer)
+- Trending & top-rated sections
+- Favorites (localStorage)
+- Pagination, sorting, filters
+- Dark mode
 
-## Tech Stack
-- React + Vite
-- Tailwind CSS
-- OMDB API
+## Local setup
+1. copy `.env.example` -> `.env` and fill `VITE_TMDB_API_KEY`
+2. `npm install`
+3. `npm run dev`
 
-## Getting Started
-Install dependencies and start the dev server:
-
-```bash
-npm install
-npm run dev
+## Deploy
+Deployed on Vercel/Netlify (set env vars in dashboard).
