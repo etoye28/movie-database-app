@@ -5,6 +5,7 @@ import MovieList from "../components/MovieList";
 import Pagination from "../components/Pagination";
 import Filters from "../components/Filters";
 
+
 export default function SearchPage(){
   const [params] = useSearchParams();
   const q = params.get("q") || "";
@@ -15,6 +16,7 @@ export default function SearchPage(){
   const [genre, setGenre] = useState("");
   const [sortBy, setSortBy] = useState("popularity.desc");
   const [year, setYear] = useState("");
+
 
   useEffect(() => {
     if (!q) { setMovies([]); return; }
@@ -30,6 +32,8 @@ export default function SearchPage(){
       <Filters genres={genres} selectedGenre={genre} setGenre={setGenre} setSortBy={setSortBy} sortBy={sortBy} year={year} setYear={setYear} />
       {movies.length === 0 ? <div>No results found</div> : <MovieList movies={movies} />}
       <Pagination page={page} totalPages={totalPages} onPage={setPage} />
+
     </div>
+
   );
 }

@@ -4,6 +4,7 @@ import SearchBar from "./SearchBar";
 import { useTheme } from "../context/ThemeContext";
 import { HeartIcon, SunIcon, MoonIcon } from "@heroicons/react/24/outline";
 
+
 export default function Header(){
   const { dark, toggle } = useTheme();
   const nav = useNavigate();
@@ -23,6 +24,7 @@ export default function Header(){
           </button>
         </div>
       </div>
+      
     </header>
   );
 }

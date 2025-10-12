@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
 import SearchPage from "./pages/SearchPage";
 import MovieDetails from "./pages/MovieDetails";
@@ -23,6 +24,7 @@ export default function App(){
     
   );
 }
+
 
 /*
 import { useState } from 'react'
