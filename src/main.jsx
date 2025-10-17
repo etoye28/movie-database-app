@@ -5,6 +5,7 @@ import App from "./App";
 import "./index.css";
 import { FavoritesProvider } from "./context/FavoritesContext";
 import { ThemeProvider } from "./context/ThemeContext";
+console.log("TMDB Key:", import.meta.env.VITE_TMDB_API_KEY);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

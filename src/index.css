@@ -4,7 +4,7 @@
 
 /* optional small defaults */
 :root { --bg: #ffffff; --text: #111827; }
-body { @apply bg-white text-gray-900; }
+body { @apply bg-gray-100 text-gray-900; }
 .dark body { @apply bg-gray-900 text-gray-100; }
 /*
 :root {
