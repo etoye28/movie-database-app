@@ -34,4 +34,4 @@ React + Vite + Tailwind app using TMDB API. Features:
 3. `npm run dev`
 
 ## Deploy
-Deployed on Vercel/Netlify (set env vars in dashboard).
+Deployed on Vercel.
