@@ -57,7 +57,7 @@ Vercel (Deployment)
 
 Etsub Berihun
 Frontend Developer | React & UI Design Enthusiast
-📧 [etsubberihon09@gmail.com]
+📧 [etsubberihun09@gmail.com]
 
 
 
